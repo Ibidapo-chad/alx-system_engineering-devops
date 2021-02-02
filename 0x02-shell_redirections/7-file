@@ -1,2 +1,2 @@
 #!/bin/bash
-cat "Holberton School" >> \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)\n
+cat "Holberton School" | less >> \*\\'"Holberton School"\'\\'*$\?\*\*\*\*\*:)'

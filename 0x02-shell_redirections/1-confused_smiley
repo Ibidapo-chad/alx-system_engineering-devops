@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ""(U+00D4oo)'\n"
+echo "" | less

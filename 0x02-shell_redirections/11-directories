@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d | wc -l\n
+find . -type d | wc -l | less
