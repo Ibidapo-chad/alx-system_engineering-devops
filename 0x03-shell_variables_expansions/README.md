@@ -1,0 +1,1 @@
+**This is a system engineering & Devops project of shell, Init files, variables and expansions.** 
