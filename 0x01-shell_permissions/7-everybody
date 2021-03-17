@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+x hello | echo -e "\n"
+chmod a+x hello | printf "%b\n"
