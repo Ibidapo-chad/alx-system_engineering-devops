@@ -1,2 +1,2 @@
 #!/bin/bash
-ls getent passwd | cut -d: -f1\n
+cut -d: -f1,6 /etc/passwd|sort
