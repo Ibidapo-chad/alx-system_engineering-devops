@@ -4,6 +4,6 @@
 #	     - facebook.com resolves to 8.8.8.8
 
 cp /etc/hosts ~/hosts.new
-echo "127.0.0.2    localhost" > ~/hosts.alter
-echo "8.8.8.8      facebook.com" >> ~/hosts.alter
+echo -e "127.0.0.2\tlocalhost" > ~/hosts.alter
+echo -e "8.8.8.8\tfacebook.com" >> ~/hosts.alter
 cat ~/hosts.new > /etc/hosts
