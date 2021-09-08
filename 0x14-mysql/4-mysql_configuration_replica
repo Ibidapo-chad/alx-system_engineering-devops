@@ -40,7 +40,7 @@ skip-external-locking
 #
 # Instead of skip-networking the default is now to listen only on
 # localhost which is more compatible and is not less secure.
-# bind-address          = 127.0.0.1
+bind-address          = 127.0.0.1
 #
 # * Fine Tuning
 #
@@ -86,6 +86,8 @@ expire_logs_days        = 10
 max_binlog_size   = 100M
 binlog_do_db            = tyrell_corp
 #binlog_ignore_db       = include_database_name
+# Relay log-file location
+relay-log               = /var/log/mysql/mysql-relay-bin.log
 #
 # * InnoDB
 #
@@ -102,6 +104,4 @@ binlog_do_db            = tyrell_corp
 # ssl-ca=/etc/mysql/cacert.pem
 # ssl-cert=/etc/mysql/server-cert.pem
 # ssl-key=/etc/mysql/server-key.pem
-#
-# Relay log-file location
-relay-log               = /var/log/mysql/mysql-relay-bin.log
+
